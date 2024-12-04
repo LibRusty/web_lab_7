@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+.block {
+    position: absolute;
+}
+
+.block-square {
+    background-color: red;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+.block-triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid blue;
+    opacity: 0.9;
+}
+
+.block-circle {
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.active {
+    background-color: yellow;
+}
